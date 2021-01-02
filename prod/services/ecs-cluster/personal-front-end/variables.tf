@@ -61,7 +61,6 @@ variable "internal" {
 variable "ecs_cluster_name" {
   description = "The AWS ECS Cluster Name"
   type = string
-  default = "production"
 }
 
 
@@ -76,7 +75,6 @@ variable "ecs_cluster_name" {
 variable "ecs_service_name" {
   description = "The ECS Service Name"
   type = string
-  default = "personal-front-end"
 }
 
 
